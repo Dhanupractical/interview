@@ -1,0 +1,50 @@
+https://www.cosmicnovo.com/2017/08/17/web-developer-interview-questions-answers/
+https://youtu.be/t3V5x3wabTo
+
+121. HTML Formatting Elements
+  find(Formatting elements were designed to display special types of text:)
+
+122. I want program like print 10 to 1 in reverse order after delay of 1 second
+
+122. box-sizing: content-box|border-box
+   content-box ---> width and height propertires dont include padding, margin and border.
+   border-box  ---> width and height properties include padding and border  except margin
+
+123. What is the difference between createElement and cloneElement ?
+  React.cloneElement() Method: The React.cloneElement() method is used when a parent component wants to 
+  add or modify the props of its children. The React.cloneElement() function creates a clone of a given 
+  element, and we can also pass props and children into the function.
+
+124. stateless components
+  components in which we cannot use this.setState
+
+125. disadvantages of react
+  1. seo problem
+  2. jsx is unusual for developers who come for other frameworks
+
+126. featurees of react
+   1. v dom
+   2. server side rendering
+   3. unidirectional dataflow
+
+127. do browsers understand jsx
+   no, they just understand js objects,   jsx is not normal js object
+   they use babel to convert jsx into js
+   jsx transform is used to compile jsx
+
+128. changes done in react from es5 to es6
+   es5----> createClass
+   es6----> class myComponent extends React.Component
+
+129. limitations of error boundry
+   1. event handling errors are not catched
+   2. errors thron in error boundry itself is not catched
+   3. doesnt work on asyncronous code
+   4. doesnt work on server side rendering
+
+130. new features in es7
+  a.array.includes();
+  b.  x**y   x to the power of y  
+
+Scom@1818
+   

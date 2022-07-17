@@ -1,0 +1,45 @@
+11.useDebounce in react 
+    8:00 (https://youtu.be/7-xGPdvVYOA)
+
+12.return in useEffect
+
+https://blog.logrocket.com/understanding-react-useeffect-cleanup-function/
+find(When should we use the useEffect cleanup?)
+
+13.debouncing in javascript
+
+13:00 (https://youtu.be/Zo-6_qx8uxg)
+
+14. debouncing vs throttling
+
+20:00 (https://youtu.be/tJhA0DrH5co)
+6:00 (https://youtu.be/9NPPsP-4LBg)
+
+15.DOMContentLoaded
+
+https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event
+
+16. window.onload
+
+https://www.codegrepper.com/code-examples/javascript/fire+event+after+all+page+loads+are+fired
+
+17. redux persist.
+
+https://youtu.be/4TsuXuReRKE
+
+18. scope
+
+Scope determines the accessibility (visibility) of variables.
+
+https://www.w3schools.com/js/js_scope.asp#:~:text=Variables%20declared%20with%20the%20var,accessed%20from%20outside%20the%20block.
+
+19.var let const
+
+https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+vib dairy
+
+20. callback
+
+https://www.w3schools.com/js/js_callback.asp
+
+find(Using a callback, you could call the calculator function)

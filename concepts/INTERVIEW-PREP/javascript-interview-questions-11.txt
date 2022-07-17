@@ -1,0 +1,107 @@
+101. how to sroll to certain position of the  page
+    window.scrollTo({
+        behavior: "smooth",
+        top: 100
+      });
+
+102. stack data structure
+   A stack is a data structure that holds a list of elements. A stack works based on the LIFO principle
+   application---->  a. reversing the string
+                     b. “undo” mechanism in text editors
+                     c. function call
+   methods used to make stack data structure
+     a. .push()
+     b. .pop()
+     c. .peek()
+
+103. factory function  
+  The Factory Function is similar to constructor functions/class functions, but instead of using new to create 
+  an object, factory functions simply creates an object and returns it.
+
+104. why should go for react library
+  1. reuseable components
+  2. with out refreshing the whole page ,,  we can change ui of certain part
+  3. works fast due to virtual dom
+  4. allows us to write custom components
+  5. it has next.js as its framework which renders in server so that it is good for seo
+
+105. advantages of useing functional component
+  1. No Class means no ‘this’
+  2. Fewer lines = better performance
+  3. Easier to read, easier to understand, easier to reason about, easier to test
+  4. A class component requires you to extend from React.Component and create a render function which returns 
+     a React element. This requires more code
+
+  disadvantage
+  1. no ShouldComponentUpdate()  and pureComponent
+
+106. Number.MAX_SAFE_INTEGER
+   "Safe" refers to the ability of JavaScript to represent integers exactly and to correctly compare them.
+    2 power of 53 - 1 (9007199254740991)
+
+107.  Number.MAX_VALUE
+   The Number.MAX_VALUE property represents the maximum numeric value representable in JavaScript.
+   2 power of 1024
+
+108. Number.MIN_SAFE_INTEGER
+   -(2 power of 53 - 1)
+
+109.how to make any website content editable
+   document.body.contentEditable = true;
+   or  "contentEditable = true" as attribute in html tag
+
+110. how to pass argument to the method which is inside object
+
+   var x = {
+         length : 5,
+         method : function(y){
+             arguments[0]();
+       }
+    }
+
+x.method(y, 1);
+
+111. encapsulation
+
+  Encapsulation is the bundling of data and the methods that act on that data such that 
+  access to that data is restricted from outside the bundle,
+
+112. can we use aysnc in front of promise
+   yes
+
+113. unidirectional data flow in react
+   React, a Javascript library, uses unidirectional data flow. The data from the parent is known 
+   as props. You can only transfer data from parent to child and not vice versa. 
+
+114. React Hooks are JS functions with the power of react, it means that you can add some logic 
+    that you could also add into a normal JS function, but also you will be able to use the native hooks 
+    like useState, useEffect, etc, to power up that logic, to add it state, or add it side effects, 
+    memoization or more.
+
+115. how to set focus of the input in react
+   https://reactjs.org/docs/hooks-reference.html#useref
+   find(<input ref={inputEl} type="text" />)
+
+116. can we use arrow function for creating react components
+   yes
+
+117. uses of immediately invoked function
+
+   1. immediately invokes
+   2. will not pollute window object
+   3. simple way to isolate variables declarations.
+
+118. what is unique about html5
+
+   a.It supports audio and video controls with the use of <audio> and <video> tags.
+   b.Vector graphics is additionally an integral a part of HTML5 like SVG and canvas.
+   c.It allows drag and drop effects.
+   d.New element for web structure like nav, header, footer etc.
+
+119. inline and block element in html
+  A block-level element always starts on a new line, and the browsers automatically add some space 
+  (a margin) before and after the element.  eg:- <h1>-<h6>, <li>, <form>, <div>
+  An inline element only takes up as much width as necessary. eg:- <a>, <span>, <input>
+
+120. what is html attributes
+ HTML attributes provide additional information about HTML elements.

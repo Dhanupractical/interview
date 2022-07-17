@@ -1,0 +1,49 @@
+1.event capturing and event bubbling
+
+https://youtu.be/aVSf0b1jVKk
+
+2.event deligation
+
+https://youtu.be/3KJI1WZGDrg
+
+3.classes and inheritance
+
+https://www.w3schools.com/js/js_class_intro.asp
+
+https://youtu.be/YBBg6bp9ojA
+
+4.super and extends key word
+
+https://youtu.be/khuDeNwXkfI
+
+5.getters and setters
+
+https://youtu.be/QSbl0Y-5aSM
+
+6.static
+
+https://youtu.be/FF8oF5_9KPM
+
+7.prototype inheritance in javascript
+
+https://youtu.be/azTgmrQaYl0
+
+8.call, apply and bind 
+
+what is this? (at last)
+
+https://www.w3schools.com/js/js_function_bind.asp
+
+9.closures
+
+https://www.w3schools.com/js/js_function_closures.asp
+a function and its lexical scope together is called a closure
+A closure is a function having access to the parent scope, even after the parent function has closed.
+
+https://youtu.be/qikxEIxsXco
+
+10. scope chain, lexical environment
+
+lexical environment-- local memory+ lexical environment of parent;
+
+https://youtu.be/uH-tVP8MUs8

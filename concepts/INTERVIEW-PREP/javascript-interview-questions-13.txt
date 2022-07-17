@@ -1,0 +1,53 @@
+131.  new es10 features
+   a. dynamic import
+   b. global this object
+
+132. what are react components
+  components are building block of react application
+  js functions with take data as props and returns the html
+
+133. advantage of arrow function
+  no need to us bind for eventhandling functions
+
+134. state collocation
+   moveing states only to the place where it is needed so that passing from parent is stoped
+
+135. BOM heirarchy
+   window ---->  document, navigator, location, frames, screen, history
+   document---> html
+   html---->  head, body
+
+136. difference between async await and promises
+    Promise is an object representing intermediate state of operation which is guaranteed to 
+    complete its execution at some point in future. Async/Await is a syntactic sugar for promises, 
+    a wrapper making the code execute more synchronously.
+
+137. generators
+   generate values only when it is called useing yield method
+    function* numbersGen(){
+      let i = 0;
+ 
+       while(true){
+          yield i++
+       }
+    }
+
+    const gen = numbersGen();
+    console.log(gen.next().value);
+    console.log(gen.next().value);
+
+138. type conversion and type coersion
+   conversion ---> when we intensionally change the type of the variable
+   coersion   ---> when js automatically coverts type of variable (eg:- while adding number with string)
+
+139. dangerouslySetInnerHTML
+  dangerouslySetInnerHTML is React’s replacement for using innerHTML in the browser DOM.
+  in react direct innerHTML update vdom dont consider it sometimes, so it uses dangerouslysethtml from react side
+
+140. difference between spread operator and rest operator
+   function multiply(firstSrgument, ...rest){
+       console.log(firstSrgument);
+       console.log(...rest)
+    }
+
+   multiply(3, 5, 6)

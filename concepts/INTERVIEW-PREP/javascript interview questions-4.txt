@@ -1,0 +1,67 @@
+31.Object.keys()
+     const object1 = {
+      a: 'somestring',
+      b: 42,
+      c: false
+     };
+
+     console.log(Object.keys(object1));
+     // expected output: Array ["a", "b", "c"]
+
+32. error boundries
+    static getDerivedStateFromError(error) { 
+     // Update state so the next render will show the fallback UI.
+     }
+    componentDidCatch(error, errorInfo) { 
+     // You can also log the error to an error reporting service  
+     }
+
+    https://reactjs.org/docs/error-boundaries.html#:~:text=Error%20boundaries%20are%20React%20components,the%20whole%20tree%20below%20them.
+
+33. lifecycle methods
+     a.https://www.youtube.com/watch?v=qnN_FuFNq2g
+     b. mounting lifecycle method   https://youtu.be/KDXZibVdiEI
+     c. updating lifecycle method
+
+34. callback hell
+    https://youtu.be/EQem2gugonA
+    https://youtu.be/a_8nrslImo4
+    https://youtu.be/GfVMKkUk2Uo
+
+35. lists and keys
+    5:00 https://youtu.be/0sasRxl35_8
+         https://youtu.be/xlPxnc5uUPQ
+
+36. render props
+    6:00 https://youtu.be/3IdCQ7QAs38
+
+37.  primitive values
+   A primitive value is a value that has no properties or methods.
+
+38. We also learned that you can not add a new property to an existing object constructor
+    The JavaScript prototype property allows you to add new properties to object constructors:
+function Person(first, last, age, eyecolor) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eyecolor;
+}
+
+Person.prototype.nationality = "English";
+
+39.objects in js
+   Object.create()
+   Object.defineProperty(object, property, descriptor)
+   Object.getPrototypeOf(object)
+   Object.keys(object)
+   Object.preventExtensions(object)
+   Object.isExtensible(object)
+   Object.freeze(object)
+  https://www.w3schools.com/js/js_object_definition.asp
+
+40. BROWSER OBJECT MODEL
+  The Browser Object Model (BOM) in JavaScript includes the properties and methods for JavaScript to interact with the web browser.
+
+  https://www.w3schools.com/js/js_window.asp
+
+   

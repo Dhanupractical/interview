@@ -1,0 +1,78 @@
+61.What is the ‘Strict’ mode in JavaScript and how can it be enabled?
+Strict mode is a way to introduce better error-checking into code. When you use strict mode, you cannot, for example, 
+use implicitly declared variables, or assign a value to a read-only property, or add a property to an object that is not extensible.
+
+You can enable strict mode by adding “use strict”; at the beginning of a file, a program, or a function. This kind of declaration is 
+known as a directive prologue. The scope of a strict mode declaration depends on its context. If it is declared in a global context 
+(outside the scope of a function), all the code in the program is in strict mode. If it is declared in a function, all the code 
+in the function is in strict mode.
+  With strict mode, you can not, for example, use undeclared variables.
+  Strict mode changes previously accepted "bad syntax" into real errors.
+  In strict mode, any assignment to a non-writable property, a getter-only property, 
+   a non-existing property, a non-existing variable, or a non-existing object, will throw an error.
+  Deleting an undeletable property is not allowed:
+  The word "arguments" cannot be used as a variable:
+  Keywords reserved for future JavaScript versions can NOT be used as variable names in strict mode.
+  https://www.w3schools.com/js/js_strict.asp
+
+62. what is temporal dead zone
+   https://youtu.be/BNC6slYCj50
+
+63. shallow copy and deep copy
+
+    var newObject = object                     ---> shallow object
+    var newObject = Object.assign({}, object)  ---> deep copy only for immediate keys pairs
+    var newObject = {...object}                ---> deep copy only for immediate keys pairs
+    var newObject = JSON.parse(JSON.stringify(object)) ---> deep copy even for nested objects but not for complex methods
+    * if deep copy for nested functions is also required then want to loop object in for in loop assigning every item of object.
+    loadash deepclone can be done  --->  var newObject = _.cloneDeep(object);
+
+64. difference between substr() and slice() for string
+   slice() takes start index and end index as arguments
+   substr() takes start index and howmany item should be taken starting from start index
+
+  difference between subString() and slice()
+  https://www.geeksforgeeks.org/javascript-difference-between-string-slice-and-string-substring/
+  find(Separate results of substring())
+   
+  only in substring if start is greater than stop  arguments will be swaped
+  If any argument is negative or is NaN, it is treated as 0.
+
+65. recursion
+   https://youtu.be/Vi4Pr8bUMZs
+   https://youtu.be/VtG0WAUvq2w
+
+66. falsy values
+  Falsy is something which evaluates to FALSE. There are only six falsy values in JavaScript: 
+   undefined, null, NaN, 0, “” (empty string), and false of course.
+
+67. difference between indexOf() and search()
+       common in both
+
+       i) return the first occurrence of searched value
+
+       ii) return -1 if no match found
+
+       special in indexOf()
+
+       i) you can give starting search position as a second argument
+
+      special in search()
+      search value can be regular expression
+
+68. difference between substr() and subString() 
+
+    while the arguments of substr() represent the starting index and the number 
+    of characters to include in the returned string.
+
+    The arguments of substring() represent the starting and ending indexes,
+
+69. continue key word
+   https://www.w3schools.com/jsref/jsref_continue.asp
+
+70.  CORS
+            <Header name="Access-Control-Allow-Origin">*</Header>
+            <Header name="Access-Control-Allow-Headers">origin, x-requested-with, accept</Header>
+            <Header name="Access-Control-Max-Age">3628800</Header>
+            <Header name="Access-Control-Allow-Methods">GET, PUT, POST, DELETE</Header>
+    https://youtu.be/tcLW5d0KAYE

@@ -1,0 +1,55 @@
+81. functional programming
+    Functional programming (also called FP) is a way of thinking about software construction by creating pure functions. 
+
+82. URL, URI AND URN
+    ‪A:\web development\interview\URL-URI-URN.png
+
+83. .htacces
+    DirectoryIndex  index.html
+   a. to redirect to default html file when specific html file is not requested
+    ErrorDocument 404  "path of error page"
+    ErrorDocument 403  "path of error page"
+   b. redircting to 404 page when no page found
+    IndexIgnore  *.pdf
+   c. hide file directory from browsing
+
+84. pure components in react
+   does same as React.memo but pure components of react is for class components
+
+85. REST full form
+   representational state transfer
+
+86. difference between api and sdk
+    api-  application programming interface to interact between one software to another
+
+87. template element in javascript
+   Use <template> to hold some content that will be hidden when the page loads. Use JavaScript to display it:
+
+88. InnerHTML vs InnerText vs TextContent
+  InnerHTML --> html tags with text 
+  InnerText --> only text which lies between tags
+  TextContent-->  text with html rendering but tags will not be shown,,, tags effect will be shown
+
+89. shadow dom
+  .createShadowRoot()
+  .attachShadow
+  dom inside the dom,   shadow dom will not get clashed with regular dom classes and id's
+  shadow dom has three parts
+  a.shadow host
+  b.shadow tree
+  c.shadow boundary
+  d.shadow root
+
+  Shadow DOM is a browser technology that’s used to scope variables and CSS in web components.
+
+  if we want to insert html elements into shadow dom without useing javascript we have to use <template> tag
+  
+  https://youtu.be/SDs4xmMcVS4
+
+90. how to avoid hoisting
+  Use let or const — As explained above, using let or const instead of var would throw an exception and not let the 
+                     program run, hence helping catch the issue earlier.
+  Use function expressions instead of function declarations
+ 
+  https://medium.com/swlh/what-is-hoisting-in-javascript-why-and-how-to-avoid-using-it-e923c7a751e7
+

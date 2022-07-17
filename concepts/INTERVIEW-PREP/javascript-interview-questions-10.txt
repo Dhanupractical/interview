@@ -1,0 +1,82 @@
+91. arrow function
+  advantages ---> a. arrow functions are best for callbacks or methods like map, reduce, or forEach.
+                  b. no need to bind this in event handling
+  disadvantage--> a. not good for object methods.
+                  b. There’s another way arrow functions don’t work well with objects. They can’t be constructors. 
+                  c. arrow functions do not have a prototype property and they cannot be used with new.
+                  d. Arrow functions also don’t bind an arguments object. but same can be achived useing rest ... operator
+
+92.What does bind function in react does?
+   for handle click function we make "this" available after we bind 
+
+93.What are Observables?
+  redux middleware which allows to work on asyncronous task,,, alternative to redux thunk and redux saga
+
+94. render props in functional components
+  <Wrapper render={(mouse) => <Child mouse={mouse} />} />
+  https://stackoverflow.com/questions/59481733/hocs-and-render-props-with-functional-components-in-react-16
+
+95. what are arrow functions?
+  Arrow functions are a new way to write anonymous function expressions;
+  because we use arrow function only by useing var, let or const;
+
+96. createContext
+    useContext
+    useReducer
+    const [state, dispatch] = useReducer(reducer, initialState);
+
+97.When to use React shouldComponentUpdate?
+   https://linguinecode.com/post/how-to-avoid-multiple-re-renders-in-react-shouldcomponentupdate
+   find(When to use React shouldComponentUpdate?)
+
+98. different types of creating objects
+   Object.create
+   const objName = { }
+    new Object();
+
+99. promise methods
+
+  Promise.all() --->  The Promise.all() method takes an iterable of promises as an input, and returns a single Promise that resolves to an array 
+  of the results of the input promises. This returned promise will resolve when all of the input's promises have resolved, or if 
+  the input iterable contains no promises. It rejects immediately upon any of the input promises rejecting or non-promises 
+  throwing an error, and will reject with this first rejection message / error.
+
+  Promise.all([promise1, promise2, promise3]).then((values) => {
+   console.log(values);
+  });
+
+
+  Promise.allSettled() ---> The Promise.allSettled() method returns a promise that resolves after all of the 
+  given promises have either fulfilled or rejected, 
+  with an array of objects that each describes the outcome of each promise.
+
+  It is typically used when you have multiple asynchronous tasks that are not dependent on one another to complete successfully, 
+  or you'd always like to know the result of each promise.
+
+  In comparison, the Promise returned by Promise.all() may be more appropriate if the tasks are dependent on each other / if you'd like to 
+  immediately reject upon any of them rejecting.
+
+  
+  Promise.any() ---> Promise.any() takes an iterable of Promise objects. It returns a single promise that resolves as soon as any of the promises 
+  in the iterable fulfills, with the value of the fulfilled promise. If no promises in the iterable fulfill (if all of the given 
+  promises are rejected), then the returned promise is rejected with an AggregateError, a new subclass of Error that groups together 
+  individual errors.
+
+  Promise.race() ---> The Promise.race() method returns a promise that fulfills or rejects as soon as one of the promises in an 
+  iterable fulfills or rejects, with the value or reason from that promise.
+
+  Promise.prototype.finally() ---> The finally() method returns a Promise. When the promise is finally either fulfilled or rejected, 
+  the specified callback function is executed. This provides a way for code to be run whether the promise was fulfilled successfully, 
+  or instead rejected.
+  This helps to avoid duplicating code in both the promise's then() and catch() handlers.
+
+  Promise.reject() ---> The Promise.reject() method returns a Promise object that is rejected with a given reason.
+  if we want to specify particular custom error we can use this
+  Promise.reject(new Error('fail')).then(resolved, rejected);
+
+
+100. AggregateError
+
+  The AggregateError object represents an error when several errors need to be wrapped in a single error. It is thrown when multiple 
+  errors need to be reported by an operation, for example by Promise.any(), when all promises passed to it reject.
+

@@ -1,0 +1,17 @@
+141.  difference between .some and .includes 
+
+     some takes in a callback function where you can write your own logic to determine if 
+     an array contains some element which matches the conditions you wrote.
+
+     includes does a generic equalTo comparison on every element and will return true if 
+     at least one element in the array is equal to the value to find.
+
+142.  how to use useState inside for loop 
+    count [ count , setCount ] = useState()
+     set the state inside the for loop,
+     and while useing that state use it inside useEffect with  "count" in dependency array.
+   6:00   https://youtu.be/WeoJCqU24_M
+   6:00   https://youtu.be/1TXPzNLsmlM
+
+143. JavaScript is a single-threaded, non-blocking, asynchronous, concurrent programming language.
+     Javascript is always a synchronous(blocking) single thread language but we can make Javascript act Asynchronous through programming.

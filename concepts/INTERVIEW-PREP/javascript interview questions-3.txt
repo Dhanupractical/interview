@@ -1,0 +1,93 @@
+21. Promises
+
+https://www.w3schools.com/js/js_promise.asp
+
+22. Async await
+
+The keyword async before a function makes the function return a promise:
+The keyword await before a function makes the function wait for a promise:
+https://www.w3schools.com/js/js_async.asp
+
+23. difference between axios and fetch 
+    
+    a. axios.create in separate config file headers only once
+    b. can give timeout
+    c. insted of useing url parameters for data i can use params object
+    d. axios interceptors (run some code before response or before request)
+       https://masteringjs.io/tutorials/axios/interceptors
+    e. download progress and upload progress
+       https://stackoverflow.com/questions/54213601/how-to-show-progress-of-axios-during-get-request-not-download-or-upload
+       https://stackoverflow.com/questions/41088022/how-to-get-onuploadprogress-in-axios
+
+24. css prefix
+
+   https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix
+   
+    find(CSS prefixes)
+
+25.callstack and execution stack
+   
+   15:12  https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728912#content
+   
+   stack with last in first out structure (LIFO) which is used to store all the execution context created during the code execution
+   
+   https://www.youtube.com/watch?v=HDCi0royjkM
+
+26. HOC in react.js
+     redux connect, withRouter , memo, makeStyles.
+   a pattern where a function takes a component as an argument and returns a new component
+   A pure function with no side effects and returns only a new feature.
+   it should never mutate the original compnent but just add new feature 
+   ‪A:\web development\interview\HOC example.png
+   ‪A:\web development\interview\applaying HOC.png
+
+  https://www.knowledgehut.com/blog/web-development/Higher-order-Components-in-React
+   find(Examples of real-world HOCs:)
+
+27. higher order function in javascript
+ 
+   A function that accepts and/or returns another function is called a higher-order function.
+   https://www.freecodecamp.org/news/a-quick-intro-to-higher-order-functions-in-javascript-1a014f89c6b/
+
+28. difference between useCallback, useMemo and react.memo
+  memo to memoize the children component and rerender child only when the props changes(does shallow compaision between the previous and new props 
+  of primitive data structure and rerender only when the props change).
+  if any callback function is passed as props, even after the memo is used the child gets rerenderd, even when function doesnt change
+  (because when parent component gets rerenderd the function will be created again. to avoid rerender of child when child has function as props,  
+  we wrap that component with useCallback and if it depends on dependency,,  mention that dependency in useCallback dependency array.
+
+  useMemo is for arrays and objects
+  useCallback is for functions
+
+  https://youtu.be/3cYtqrNUiVw
+  https://youtu.be/DEPwA3mv_R8
+
+29. iterators in js
+
+  https://www.w3schools.com/js/js_object_iterables.asp
+
+  configurable property: The configurable attribute controls at the same time whether the property 
+                         can be deleted from the object and whether its attributes 
+                         (other than value and writable ) can be changed.
+  enumerable property:  An enumerable property in JavaScript means that a property can be viewed 
+                        if it is iterated using the for…in loop or 
+                        Object. keys() method.
+                     https://www.geeksforgeeks.org/what-does-enumerable-property-mean-in-javascript/#:~:text=An%20enumerable%20property%20in%20JavaScript,initializer%20are%20enumerable%20by%20default.
+                     find(Note: Properties that are created using the defineProperty())
+  Object.defineProperty :  Object.defineProperty(student, 'marks', {
+                                value: 98,
+                                configurable: true,
+                                writable: false,
+                                enumerable: false,
+                            });
+  https://youtu.be/NaJI7RkSPx8
+  https://youtu.be/2MNbH7sQK-I
+
+30.mutability in js
+   
+   Mutable is a type of variable that can be changed. In JavaScript, only objects and arrays are mutable, not primitive values.
+   https://developer.mozilla.org/en-US/docs/Glossary/Mutable
+
+    
+
+

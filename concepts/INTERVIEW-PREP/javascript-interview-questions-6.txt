@@ -1,0 +1,42 @@
+
+51. how do we use html inside js files in react?
+  we dont directly use html elements but
+   If you write a div in JSX, it's actually the equivalent of calling React.createElement().
+ 
+56.Following are the advantages of using JavaScript − 
+   https://www.edureka.co/blog/interview-questions/javascript-interview-questions/
+   find(Q6. What are the advantages of JavaScript?)
+
+57. nameing convention in javascript
+  https://www.edureka.co/blog/interview-questions/javascript-interview-questions/
+  find(Q17. What are the variable naming conventions in JavaScript?)
+
+56. what are typed languages
+   https://www.edureka.co/blog/interview-questions/javascript-interview-questions/
+   find(Q26. What is a Typed language?)
+
+57.What is the difference between null & undefined?
+   Undefined means a variable has been declared but has not yet been assigned a value. 
+   On the other hand, null is an assignment value. It can be assigned to a variable as a 
+   representation of no value. Also, undefined and null are two distinct types: undefined 
+   is a type itself (undefined) while null is an object.
+
+58.What is the difference between window & document in JavaScript?
+  find(Q32. What is the difference between window & document in JavaScript?)
+
+59. Explain the role of deferred scripts in JavaScript
+
+Example: "The parsing for HTML code while the page is loading waits by default until the scripts have paused executing. 
+If your server is a little slow or the script is specifically heavy, then your webpage can take more time to load. 
+
+When deferred is used, scripts delay the execution till the time the HTML parser is running. 
+This lessens the apparent loading time of web pages by allowing the starting part of the page to load fast."
+
+60. What is the use of break and continue statements in JavaScript?
+These two terminologies relate to the looping aspect of programming. Consider explaining how the break and continue 
+statement affect the loop differently.
+
+Example: "The break statement jumps out from a running loop, whereas the continue statement allows the loop to keep 
+running after breaking just one iteration. Both statements allow writing a complex loop function with various potential 
+results and required actions based on a given function outcome."
+

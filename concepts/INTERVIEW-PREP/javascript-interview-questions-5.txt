@@ -1,0 +1,48 @@
+
+41. currying
+   snippets with below mentioned names in brave browser
+   currying with bind
+   currying with closures
+
+42.difference between uncontrolled and controlled component
+
+  Controlled components in React are those in which form data is handled by the component’s state or reacts state.
+
+  Uncontrolled components are those for which the form data is handled by the DOM itself. “Uncontrolled” 
+   refers to the fact that these components are not controlled by React state.
+
+43. confusion with var scope
+  https://stackoverflow.com/questions/55444113/what-is-function-scoped-variables-var-and-block-scoped-variables-in-es6
+
+44. media query
+   @media only screen and (orientation: landscape) 
+
+45.difference between slice and splice
+  S LICE = Gives part of array & NO splitting original array
+  SP LICE = Gives part of array & SPlitting original array
+
+46. difference between .map and .forEach array
+  The main difference between map and forEach is that the map method returns a new 
+  array by applying the callback function on each element of an array, 
+  while the forEach method doesn't return anything.
+
+47. disadvantage of useing useContext api
+   any time the value provided on Context changes, all of its children will re-render, which can hurt performance.
+
+48. why are keys necessary in while useing map 
+   Because keys tell React which element or component is which in a list.
+   Otherwise, if we were to try to change items in this list by inserting more or editing them in some way, 
+   React wouldn’t know the order to put them in.
+   This is because React takes care of all of the business of updating the DOM for us (using a virtual DOM), 
+   but keys are necessary for React to update it properly.
+
+49. What is a ref? How do you use it?
+  A ref is a reference to a DOM element in React.
+  Refs are created with the help of the useRef hook and can be immediately placed in a variable.
+  This variable is then passed to a given React element (not a component) 
+  to get a reference to the underlying DOM element (that is, div, span, and so on).
+  The element itself and its properties are now available on the .current property of the ref.
+
+50. why are react fragments used?
+  https://www.freecodecamp.org/news/react-interview-questions-to-know/
+  find(5. What are React Fragments used for?)

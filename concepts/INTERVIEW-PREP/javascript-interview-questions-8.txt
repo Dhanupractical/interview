@@ -1,0 +1,75 @@
+71.async vs defer attributes in Javascript
+   https://medium.com/@raviroshan.talk/async-defer-javascript-loading-strategies-da489a0ba47e
+   find(Pros:) 
+
+72.typeOf operator
+   typeof null                   // Returns "object"
+   typeof [1,2,3,4]              // Returns "object"
+   typeof NaN                    // Returns "number"
+   typeof function () {}         // Returns "function"
+
+73.  protecting objects
+
+    // Prevents adding properties to an object
+    Object.preventExtensions(object)
+
+    // Returns true if properties can be added to an object
+    Object.isExtensible(object)
+
+   difference between object.freeze and object.seal
+   // Prevents any changes to an object
+   Object.freeze(object)
+
+   // Prevents changes of object properties (not values)
+   Object.seal(object)
+
+74. manageing objects
+   // Returns enumerable properties as an array
+   Object.keys(object)
+
+  // Returns all properties as an array
+  Object.getOwnPropertyNames(object)
+
+75. what are new features in es6
+    a. arrow method
+    b. let and const
+    c. destructuring
+    d. template string
+
+76. arrow function advantage
+  ES6 arrow functions can’t be bound to a this keyword, so it will lexically go up a scope, 
+  and use the value of this in the scope in which it was defined.
+  
+  disadvantage---->
+  do not use on Object methods because "this" will not work
+
+77. why let and var behave differently in for loop
+  https://discuss.codecademy.com/t/var-and-let-in-a-loop-working-differently/550468/2
+
+78. difference between indexOf() and findIndex()
+    both methods return -1 if no value is found
+
+   array.indexOf() expects a value as first parameter. This makes it a good choice to find the index in arrays of primitive 
+   types (like string, number, or boolean).
+
+   array.findIndex() expects a callback as first parameter. Use this if you need the index in arrays with non-primitive 
+   types (e.g. objects) or your find condition is more complex than just a value.
+
+79.https://www.w3schools.com/js/js_object_sets.asp
+
+80. pure function and impure function
+   pure function ----->   function which does not modify the value or data of external variable (even if we pass variable as arguments)
+                          * for the same input multiple times it gives same output ,,  output will not change even when called multiple times
+                    ex:-  Math.max()
+                    use:- reuseable code!! and easy to test
+   impure function  --->  function which modify the value or data of external variable
+
+
+
+
+https://youtu.be/jh86NGG9jdE
+https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
+https://www.programiz.com/javascript/examples/palindrome#:~:text=const%20reverseArrayValues%20%3D%20arrayValues.-,reverse()%3B,an%20array%20into%20a%20string.&text=Then%20the%20if...else,the%20string%20is%20a%20palindrome.
+https://www.bbc.co.uk/bitesize/guides/z9hb97h/revision/4#:~:text=Prime%20factors%20are%20factors%20of,use%20a%20prime%20factor%20tree.
+https://thatjsdude.com/interview/js1.html
+https://javascript.plainenglish.io/javascript-coding-practice-challenges-strings-f2c9a98e8e5e
